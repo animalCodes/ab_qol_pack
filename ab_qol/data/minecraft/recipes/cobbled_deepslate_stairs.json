@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "00 ",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobbled_deepslate_stairs",
+    "count": 8
+  }
+}

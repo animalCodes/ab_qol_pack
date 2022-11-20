@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_pressure_plate",
+    "count": 8
+  }
+}
