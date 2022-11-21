@@ -1,2 +1,4 @@
 # Contains a helper script for making repetitive entries (such as changing the recipes for *all* trapdoors)
 app.js
+# Copies datapack contents to testing world's `datapacks` folder
+copy.sh
