@@ -8,6 +8,26 @@
           "type": "minecraft:item",
           "name": "minecraft:shulker_shell"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "entity": "killer_player",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
       ]
     },
     {
@@ -17,6 +37,24 @@
           "condition": "random_chance_with_looting",
           "chance": 0.3,
           "looting_multiplier": 0.2
+        },
+        {
+          "condition": "inverted",
+          "term": {
+            "condition": "entity_properties",
+            "entity": "killer_player",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch"
+                    }
+                  ]
+                }
+              }
+            }
+          }
         }
       ],
       "entries": [
@@ -42,7 +80,7 @@
                 ]
               }
             }
-          } 
+          }
         }
       ],
       "entries": [
