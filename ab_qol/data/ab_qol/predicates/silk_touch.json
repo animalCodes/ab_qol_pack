@@ -1,0 +1,15 @@
+{
+  "condition": "entity_properties",
+  "entity": "killer_player",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "enchantments": [
+          {
+            "enchantment": "minecraft:silk_touch"
+          }
+        ]
+      }
+    }
+  }
+}

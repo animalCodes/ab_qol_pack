@@ -3,20 +3,10 @@
   "pools": [
     {
       "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
       "conditions": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.3,
-          "looting_multiplier": 0.2
+          "condition": "random_chance",
+          "chance": 0.6
         }
       ],
       "entries": [
@@ -30,19 +20,113 @@
       "rolls": 1,
       "conditions": [
         {
+          "condition": "random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "conditions": [
+        {
           "condition": "random_chance_with_looting",
-          "chance": 0.2,
+          "chance": 0.4,
           "looting_multiplier": 0.1
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_i_or_more"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.3,
+          "looting_multiplier": 0.1
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_ii_or_more"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.025,
+          "looting_multiplier": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.1,
+          "looting_multiplier": 0.15
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:sand"
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato"
+          "name": "minecraft:sand"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.05
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_iii_or_more"
         }
       ]
     }

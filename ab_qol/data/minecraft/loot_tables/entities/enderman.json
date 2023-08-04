@@ -5,13 +5,8 @@
       "rolls": 1,
       "conditions": [
         {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_on_fire": false
-            }
-          } 
+          "condition": "random_chance",
+          "chance": 0.3
         }
       ],
       "entries": [
@@ -23,15 +18,88 @@
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
       "conditions": [
         {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_on_fire": true
-            }
-          } 
+          "condition": "random_chance_with_looting",
+          "chance": 0.3,
+          "looting_multiplier": 0.1
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_i_or_more"
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:not_on_fire"
+        }
+
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.2,
+          "looting_multiplier": 0.1
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_ii_or_more"
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:not_on_fire"
+        }
+
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.1,
+          "looting_multiplier": 0.15
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_iii_or_more"
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:not_on_fire"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.4
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:on_fire"
         }
       ],
       "entries": [
@@ -45,15 +113,18 @@
       "rolls": 1,
       "conditions": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.2,
-          "looting_multiplier": 0.1
+          "condition": "random_chance",
+          "chance": 0.2
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:on_fire"
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ender_pearl"
+          "name": "minecraft:ender_eye"
         }
       ]
     }

@@ -15,31 +15,113 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gunpowder"
+          "name": "minecraft:ghast_tear"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.5,
+          "looting_multiplier": 0.1
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_i_or_more"
         }
       ]
     },
     {
-      "rolls": 2,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance_with_looting",
           "chance": 0.4,
-          "looting_multiplier": 0.2
+          "looting_multiplier": 0.1
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_ii_or_more"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.3,
+          "looting_multiplier": 0.15
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_iii_or_more"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.7
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:ghast_tear"
-        },
+          "name": "minecraft:gunpowder"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.4,
+          "looting_multiplier": 0.1
         },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_i_or_more"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.3,
+          "looting_multiplier": 0.1
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_ii_or_more"
         }
       ]
     }
