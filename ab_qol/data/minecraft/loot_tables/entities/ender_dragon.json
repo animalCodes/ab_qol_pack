@@ -8,6 +8,13 @@
           "type": "minecraft:item",
           "name": "minecraft:dragon_head"
         }
+      ],
+      "conditions": [
+          {
+              "condition": "random_chance_with_looting",
+              "chance": 0.0,
+              "looting_multiplier": 0.05
+          }
       ]
     },
     {
@@ -17,6 +24,13 @@
           "type": "minecraft:item",
           "name": "minecraft:dragon_egg"
         }
+      ],
+      "conditions": [
+          {
+              "condition": "random_chance_with_looting",
+              "chance": 0.005,
+              "looting_multiplier": 0.005
+          }
       ]
     },
     {
@@ -26,6 +40,12 @@
           "type": "minecraft:item",
           "name": "minecraft:elytra"
         }
+      ],
+      "conditions": [
+          {
+              "condition": "random_chance",
+              "chance": 0.5
+          }
       ]
     }
   ]

@@ -11,22 +11,8 @@
       ],
       "conditions": [
         {
-          "condition": "inverted",
-          "term": {
-            "condition": "entity_properties",
-            "entity": "killer_player",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch"
-                    }
-                  ]
-                }
-              }
-            }
-          }
+          "condition": "reference",
+          "name": "ab_qol:no_silk_touch"
         }
       ]
     },
@@ -39,22 +25,8 @@
           "looting_multiplier": 0.2
         },
         {
-          "condition": "inverted",
-          "term": {
-            "condition": "entity_properties",
-            "entity": "killer_player",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch"
-                    }
-                  ]
-                }
-              }
-            }
-          }
+          "condition": "reference",
+          "name": "ab_qol:no_silk_touch"
         }
       ],
       "entries": [
@@ -68,19 +40,8 @@
       "rolls": 1,
       "conditions": [
         {
-          "condition": "entity_properties",
-          "entity": "killer_player",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:silk_touch"
-                  }
-                ]
-              }
-            }
-          }
+          "condition": "reference",
+          "name": "ab_qol:silk_touch"
         }
       ],
       "entries": [

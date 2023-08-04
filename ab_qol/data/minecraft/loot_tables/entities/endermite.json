@@ -5,25 +5,9 @@
       "rolls": 1,
       "conditions": [
         {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_on_fire": true
-            }
-          } 
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:popped_chorus_fruit"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "conditions": [
+          "condition": "random_chance",
+          "chance": 0.5
+        },
         {
           "condition": "entity_properties",
           "entity": "this",
@@ -31,13 +15,37 @@
             "flags": {
               "is_on_fire": false
             }
-          } 
+          }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:chorus_fruit"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.5
+        },
+        {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_on_fire": true
+            }
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit"
         }
       ]
     }
