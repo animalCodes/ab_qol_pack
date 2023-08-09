@@ -12,17 +12,17 @@
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance_with_looting",
           "chance": 0.05,
           "looting_multiplier": 0.1
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
         }
       ]
     }

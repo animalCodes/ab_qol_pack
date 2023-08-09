@@ -3,31 +3,31 @@
   "pools": [
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance",
           "chance": 0.6
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh"
-        }
       ]
     },
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "random_chance",
-          "chance": 0.2
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.2
         }
       ]
     },
@@ -73,13 +73,6 @@
     },
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.025,
-          "looting_multiplier": 0.01
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
@@ -93,21 +86,28 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.025,
+          "looting_multiplier": 0.01
+        }
       ]
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance_with_looting",
           "chance": 0.1,
           "looting_multiplier": 0.15
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sand"
         }
       ]
     },

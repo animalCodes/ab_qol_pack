@@ -1,16 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "000",
-      "000"
-    ],
-    "key": {
-      "0": {
-        "item": "minecraft:dark_oak_planks"
-      }
-    },
-    "result": {
-      "item": "minecraft:dark_oak_trapdoor",
-      "count": 24
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_planks"
     }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_trapdoor",
+    "count": 24
   }
+}

@@ -3,16 +3,16 @@
   "pools": [
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "random_chance",
-          "chance": 0.3
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.3
         }
       ]
     },
@@ -38,7 +38,6 @@
           "condition": "reference",
           "name": "ab_qol:not_on_fire"
         }
-
       ]
     },
     {
@@ -63,7 +62,6 @@
           "condition": "reference",
           "name": "ab_qol:not_on_fire"
         }
-
       ]
     },
     {
@@ -92,6 +90,12 @@
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance",
@@ -101,16 +105,16 @@
           "condition": "reference",
           "name": "ab_qol:on_fire"
         }
-      ],
+      ]
+    },
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_eye"
         }
-      ]
-    },
-    {
-      "rolls": 1,
+      ],
       "conditions": [
         {
           "condition": "random_chance",
@@ -119,12 +123,6 @@
         {
           "condition": "reference",
           "name": "ab_qol:on_fire"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ender_eye"
         }
       ]
     }

@@ -3,33 +3,33 @@
   "pools": [
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance_with_looting",
           "chance": 0.25,
           "looting_multiplier": 0.1
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_nugget"
-        }
       ]
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance_with_looting",
           "chance": 0.2,
           "looting_multiplier": 0.15
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:gravel"
         }
       ]
     }

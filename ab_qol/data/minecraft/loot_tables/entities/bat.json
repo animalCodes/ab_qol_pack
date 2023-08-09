@@ -2,18 +2,18 @@
   "type": "minecraft:entity",
   "pools": [
     {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch"
+        }
+      ],
       "rolls": 1,
       "conditions": [
         {
           "condition": "random_chance_with_looting",
           "chance": 0.4,
           "looting_multiplier": 0.15
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:torch"
         }
       ]
     }

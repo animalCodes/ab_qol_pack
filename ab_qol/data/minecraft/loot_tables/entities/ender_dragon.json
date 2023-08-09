@@ -10,11 +10,11 @@
         }
       ],
       "conditions": [
-          {
-              "condition": "random_chance_with_looting",
-              "chance": 0.0,
-              "looting_multiplier": 0.05
-          }
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.0,
+          "looting_multiplier": 0.05
+        }
       ]
     },
     {
@@ -26,11 +26,11 @@
         }
       ],
       "conditions": [
-          {
-              "condition": "random_chance_with_looting",
-              "chance": 0.005,
-              "looting_multiplier": 0.005
-          }
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.005,
+          "looting_multiplier": 0.005
+        }
       ]
     },
     {
@@ -42,10 +42,10 @@
         }
       ],
       "conditions": [
-          {
-              "condition": "random_chance",
-              "chance": 0.5
-          }
+        {
+          "condition": "random_chance",
+          "chance": 0.5
+        }
       ]
     }
   ]

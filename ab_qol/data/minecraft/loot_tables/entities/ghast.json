@@ -72,16 +72,16 @@
     },
     {
       "rolls": 1,
-      "conditions": [
-        {
-          "condition": "random_chance",
-          "chance": 0.7
-        }
-      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.7
         }
       ]
     },

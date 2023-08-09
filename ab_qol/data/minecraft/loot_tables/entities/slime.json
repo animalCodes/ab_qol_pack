@@ -3,6 +3,12 @@
   "pools": [
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance",
@@ -18,16 +24,16 @@
             }
           }
         }
-      ],
+      ]
+    },
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:slime_ball"
         }
-      ]
-    },
-    {
-      "rolls": 1,
+      ],
       "conditions": [
         {
           "condition": "random_chance",
@@ -42,12 +48,6 @@
               "size": 1
             }
           }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:slime_ball"
         }
       ]
     },
@@ -143,6 +143,12 @@
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance_with_looting",
@@ -161,16 +167,16 @@
             }
           }
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:slime_ball"
-        }
       ]
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_block"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance_with_looting",
@@ -184,16 +190,10 @@
             "type_specific": {
               "type": "slime",
               "size": {
-                  "min": 4
+                "min": 4
               }
             }
           }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:slime_block"
         }
       ]
     }

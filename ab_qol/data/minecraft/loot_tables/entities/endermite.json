@@ -3,6 +3,12 @@
   "pools": [
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance",
@@ -17,16 +23,16 @@
             }
           }
         }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chorus_fruit"
-        }
       ]
     },
     {
       "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit"
+        }
+      ],
       "conditions": [
         {
           "condition": "random_chance",
@@ -40,12 +46,6 @@
               "is_on_fire": true
             }
           }
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:popped_chorus_fruit"
         }
       ]
     }
