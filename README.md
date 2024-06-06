@@ -23,7 +23,3 @@ Item drops for some mobs have been increased, and brand-new items can now be obt
 - Bats have a high chance to drop a torch
 - Silverfish can drop iron nuggets and gravel
 - Husks have a low chance to drop sand
-
-# Silk touch?
-
-Killing some mobs with a silk-touch tool will drop an item related to that mob, creepers will drop a block of tnt, and shulkers will drop a shulker box.
