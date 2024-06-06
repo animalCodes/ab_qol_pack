@@ -13,10 +13,6 @@
         {
           "condition": "random_chance",
           "chance": 0.45
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
         }
       ]
     },
@@ -32,10 +28,6 @@
         {
           "condition": "random_chance",
           "chance": 0.25
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
         }
       ]
     },
@@ -56,10 +48,6 @@
         {
           "condition": "reference",
           "name": "ab_qol:looting_i_or_more"
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
         }
       ]
     },
@@ -80,10 +68,6 @@
         {
           "condition": "reference",
           "name": "ab_qol:looting_ii_or_more"
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
         }
       ]
     },
@@ -104,25 +88,6 @@
         {
           "condition": "reference",
           "name": "ab_qol:looting_iii_or_more"
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tnt"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "reference",
-          "name": "ab_qol:silk_touch"
         }
       ]
     },

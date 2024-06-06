@@ -8,12 +8,6 @@
           "type": "minecraft:item",
           "name": "minecraft:shulker_shell"
         }
-      ],
-      "conditions": [
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
-        }
       ]
     },
     {
@@ -29,25 +23,6 @@
           "condition": "random_chance_with_looting",
           "chance": 0.3,
           "looting_multiplier": 0.2
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shulker_box"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "reference",
-          "name": "ab_qol:silk_touch"
         }
       ]
     }

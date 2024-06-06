@@ -13,10 +13,6 @@
         {
           "condition": "random_chance",
           "chance": 0.6
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
         }
       ]
     },
@@ -32,10 +28,6 @@
         {
           "condition": "random_chance",
           "chance": 0.3
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:no_silk_touch"
         }
       ]
     },
@@ -171,25 +163,6 @@
         {
           "condition": "reference",
           "name": "ab_qol:looting_iii_or_more"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:cobweb"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "random_chance",
-          "chance": 0.75
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:silk_touch"
         }
       ]
     }
