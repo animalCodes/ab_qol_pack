@@ -165,6 +165,26 @@
           "name": "ab_qol:looting_iii_or_more"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.005,
+          "looting_multiplier": 0.05
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_iii_or_more"
+        }
+      ]
     }
   ]
 }
