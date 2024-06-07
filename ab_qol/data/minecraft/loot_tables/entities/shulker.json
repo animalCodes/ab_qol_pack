@@ -25,6 +25,46 @@
           "looting_multiplier": 0.2
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.25,
+          "looting_multiplier": 0.15
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_i_or_more"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shulker_shell"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_looting",
+          "chance": 0.001,
+          "looting_multiplier": 0.05
+        },
+        {
+          "condition": "reference",
+          "name": "ab_qol:looting_iii_or_more"
+        }
+      ]
     }
   ]
 }
