@@ -23,3 +23,7 @@ Item drops for some mobs have been increased, and brand-new items can now be obt
 - Bats have a high chance to drop a torch
 - Silverfish can drop iron nuggets and gravel
 - Husks have a low chance to drop sand
+
+# License
+
+Licensed under the MIT License, see `LICENSE.md`.
