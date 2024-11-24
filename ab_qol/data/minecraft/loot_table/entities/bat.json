@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch"
+        }
+      ],
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.4,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.55,
+            "per_level_above_first": 0.15
+          },
+          "enchantment": "minecraft:looting"
+        }
+      ]
+    }
+  ]
+}

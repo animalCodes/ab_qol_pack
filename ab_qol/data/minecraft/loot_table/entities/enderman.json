@@ -26,37 +26,14 @@
       ],
       "conditions": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.3,
-          "looting_multiplier": 0.1
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:looting_i_or_more"
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:not_on_fire"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ender_pearl"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.2,
-          "looting_multiplier": 0.1
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:looting_ii_or_more"
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.3,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.45,
+            "per_level_above_first": 0.15
+          },
+          "enchantment": "minecraft:looting"
         },
         {
           "condition": "reference",
@@ -74,13 +51,39 @@
       ],
       "conditions": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.1,
-          "looting_multiplier": 0.15
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.25,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+          },
+          "enchantment": "minecraft:looting"
         },
         {
           "condition": "reference",
-          "name": "ab_qol:looting_iii_or_more"
+          "name": "ab_qol:not_on_fire"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.05,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.1,
+            "per_level_above_first": 0.05
+          },
+          "enchantment": "minecraft:looting"
         },
         {
           "condition": "reference",
@@ -99,7 +102,7 @@
       "conditions": [
         {
           "condition": "random_chance",
-          "chance": 0.4
+          "chance": 0.3
         },
         {
           "condition": "reference",
@@ -118,11 +121,16 @@
       "conditions": [
         {
           "condition": "random_chance",
-          "chance": 0.2
+          "chance": 0.15
         },
         {
-          "condition": "reference",
-          "name": "ab_qol:on_fire"
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_on_fire": true
+            }
+          }
         }
       ]
     }

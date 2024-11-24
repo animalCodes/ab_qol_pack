@@ -41,13 +41,14 @@
       ],
       "conditions": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.4,
-          "looting_multiplier": 0.1
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:looting_i_or_more"
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.15,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.3,
+            "per_level_above_first": 0.15
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     },
@@ -61,13 +62,14 @@
       ],
       "conditions": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.3,
-          "looting_multiplier": 0.1
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:looting_ii_or_more"
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.05,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.15,
+            "per_level_above_first": 0.1
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     },
@@ -81,17 +83,18 @@
       ],
       "conditions": [
         {
-          "condition": "random_chance_with_looting",
-          "chance": 0.2,
-          "looting_multiplier": 0.15
-        },
-        {
-          "condition": "reference",
-          "name": "ab_qol:looting_iii_or_more"
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.05,
+            "per_level_above_first": 0.05
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     },
-    {    
+    {
       "rolls": 1,
       "entries": [
         {
@@ -146,7 +149,7 @@
       "conditions": [
         {
           "condition": "entity_properties",
-          "entity": "killer",
+          "entity": "attacker",
           "predicate": {
             "type": "skeleton"
           }

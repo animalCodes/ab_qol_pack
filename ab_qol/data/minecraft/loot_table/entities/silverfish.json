@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.25,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+          },
+          "enchantment": "minecraft:looting"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.25,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.4,
+            "per_level_above_first": 0.15
+          },
+          "enchantment": "minecraft:looting"
+        }
+      ]
+    }
+  ]
+}
