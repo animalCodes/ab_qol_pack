@@ -15,8 +15,11 @@
           "chance": 0.5
         },
         {
-          "condition": "reference",
-          "name": "ab_qol:not_on_fire"
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "ab_qol:on_fire"
+          }
         }
       ]
     },

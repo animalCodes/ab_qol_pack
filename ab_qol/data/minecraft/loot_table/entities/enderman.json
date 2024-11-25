@@ -36,8 +36,11 @@
           "enchantment": "minecraft:looting"
         },
         {
-          "condition": "reference",
-          "name": "ab_qol:not_on_fire"
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "ab_qol:on_fire"
+          }
         }
       ]
     },
@@ -61,8 +64,11 @@
           "enchantment": "minecraft:looting"
         },
         {
-          "condition": "reference",
-          "name": "ab_qol:not_on_fire"
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "ab_qol:on_fire"
+          }
         }
       ]
     },
@@ -86,8 +92,11 @@
           "enchantment": "minecraft:looting"
         },
         {
-          "condition": "reference",
-          "name": "ab_qol:not_on_fire"
+          "condition": "inverted",
+          "term": {
+            "condition": "reference",
+            "name": "ab_qol:on_fire"
+          }
         }
       ]
     },
@@ -124,13 +133,8 @@
           "chance": 0.15
         },
         {
-          "condition": "entity_properties",
-          "entity": "this",
-          "predicate": {
-            "flags": {
-              "is_on_fire": true
-            }
-          }
+          "condition": "reference",
+          "name": "ab_qol:on_fire"
         }
       ]
     }
