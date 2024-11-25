@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00"
+  ],
+  "key": {
+    "0": "minecraft:warped_planks"
+  },
+  "result": {
+    "id": "minecraft:warped_pressure_plate",
+    "count": 8
+  }
+}

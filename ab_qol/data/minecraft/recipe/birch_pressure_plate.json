@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "00"
+  ],
+  "key": {
+    "0": "minecraft:birch_planks"
+  },
+  "result": {
+    "id": "minecraft:birch_pressure_plate",
+    "count": 8
+  }
+}

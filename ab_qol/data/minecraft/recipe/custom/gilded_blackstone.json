@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": ["minecraft:blackstone", "minecraft:gold_nugget", "minecraft:gold_nugget"],
+  "result": {
+    "id": "minecraft:gilded_blackstone",
+    "count": 1
+  }
+}
